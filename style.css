@@ -1,0 +1,41 @@
+#XgenElement {
+    display: flex;
+    flex-direction: row;
+}
+
+.product {
+    flex-grow: 1;
+    border: solid 1px #ddd;
+    border-radius: 16px;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.product:hover {
+    box-shadow: 0 0 0 0.15rem #ddd;
+}
+
+.product a {
+    text-decoration: none;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product .title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 8px;
+}
+
+.product .price {
+    font-size: 1rem;
+    color: #676e76;
+    margin: 8px;
+}
+
+.product .title, .product .price {
+    text-align: center;
+}
